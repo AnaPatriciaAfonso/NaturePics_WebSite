@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54D0D1EC-51A7-49DB-B773-C9BCCF273E14}"
+	ProjectSection(SolutionItems) = preProject
+		create_account.html = create_account.html
+		MainPage.css = MainPage.css
+		MainPage.html = MainPage.html
+		sign_in.css = sign_in.css
+		sign_in.html = sign_in.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LOGO", "LOGO", "{70902449-8E0B-4C05-810B-223ABED9B8BB}"
+	ProjectSection(SolutionItems) = preProject
+		LOGO\favicon.ico = LOGO\favicon.ico
+		LOGO\logo_medium2.png = LOGO\logo_medium2.png
+		LOGO\logo_mediumt.png = LOGO\logo_mediumt.png
+		LOGO\logo_small.png = LOGO\logo_small.png
+		LOGO\logo_small2.png = LOGO\logo_small2.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{18F7881D-3F56-4E0F-BE17-BD2D941324C5}"
+	ProjectSection(SolutionItems) = preProject
+		Images\create_account_back2.jpg = Images\create_account_back2.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Videos", "Videos", "{08D497F7-62D7-4DB6-9FD5-2ED89C76EE8A}"
+	ProjectSection(SolutionItems) = preProject
+		Videos\Alpes.mp4 = Videos\Alpes.mp4
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70902449-8E0B-4C05-810B-223ABED9B8BB} = {54D0D1EC-51A7-49DB-B773-C9BCCF273E14}
+		{18F7881D-3F56-4E0F-BE17-BD2D941324C5} = {54D0D1EC-51A7-49DB-B773-C9BCCF273E14}
+		{08D497F7-62D7-4DB6-9FD5-2ED89C76EE8A} = {54D0D1EC-51A7-49DB-B773-C9BCCF273E14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A76EF29C-5384-4DCE-8E87-6C374B4A6A38}
+	EndGlobalSection
+EndGlobal

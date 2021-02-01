@@ -1,0 +1,81 @@
+﻿ <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NaturePics-Create Account</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+
+    <link href="sign_in.css" rel="stylesheet" />
+
+    <link href="LOGO/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+
+    <a href="MainPage.html">
+        <img src="LOGO/logo_mediumt.png" alt="NaturePics Logo">
+        </a>
+
+        <form method="post">
+
+            <fieldset id="fieldser_create_account">
+                <div>
+                    Create Account
+                </div>
+                <br /> &nbsp <br />
+                <label>First Name </label><br />
+                <input type="text" id="fname" name="fname" required autofocus />
+                <br /> &nbsp <br />
+
+                <label>Last Name </label><br />
+                <input type="text" id="lname" name="lname" required />
+                <br /> &nbsp <br />
+
+                <label>Choose Profile Picture</label><br />
+                <input type="file" />
+                <br /> &nbsp <br />
+
+                <label>Gender</label><br />
+                <input type="radio" id="sex" name="sex" value="M" required />
+
+                <label for="M">Male</label>
+
+                <input type="radio" id="sex" name="sex" value="F" />
+
+                <label for="F">Female</label>
+
+                <input type="radio" id="sex" name="sex" value="O" />
+
+                <label for="O">Other</label>
+
+                <br /> &nbsp <br />
+
+                <label>Date of Birth</label><br />
+                <input type="date" required /><br /> &nbsp <br />
+                <br /> &nbsp <br />
+
+                <label>User Name</label><br />
+                <input type="text" id="uname" name="uname" required />
+                <br /> &nbsp <br />
+
+                <label>E-mail</label><br />
+                <input type="email" required placeholder="example@gmail.com" />
+                <br /> &nbsp <br />
+
+                <label>Password</label><br />
+                <input type="password" required placeholder="Password" />
+                <br /> &nbsp <br />
+
+                <label>Confirm Password</label><br />
+                <input type="password" required placeholder="Confirm" />
+                <br /> &nbsp <br />
+
+                <input type="submit" value="Submit" onclick="alert('Are you sure?')" />
+
+                <button type="reset"> Reset </button>
+                <br /> &nbsp <br />
+            </fieldset>
+        </form>
+</body>
+</html>

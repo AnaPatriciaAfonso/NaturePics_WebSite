@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NaturePics</title>
+
+    <link href="MainPage.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+    <link href="LOGO/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+
+    <table class="InitialTable">
+        <tr>
+            <td>
+                <a href="MainPage.html">
+                    <img src="LOGO/logo_small2.png" alt="NaturePics Logo" class="LogoCell">
+                </a>
+            </td>
+            <td class="CellInitialList">
+                <ul class="InitialList">
+                    <li class="InitialItemsList">
+                        <a href="http://www.talenter.com" target="_blank">
+                            Upload
+                        </a>
+                    </li>
+                    <li class="InitialItemsList dropdown">
+                        <a href="http://www.talenter.com" target="_blank">
+                            Categories
+                        </a>
+                        <div class="drop-lnk">
+                            <a class="LinhaDropdown" href="#">Mountain</a>
+                            <a class="LinhaDropdown" href="#">Beach</a>
+                            <a class="LinhaDropdown" href="#">River</a>
+                            <a class="LinhaDropdown" href="#">Ocean</a>
+                            <a class="LinhaDropdown" href="#">Cascade</a>
+                        </div>
+                    </li>
+
+                    <li class="InitialItemsList">
+                        <a href="http://www.talenter.com" target="_blank">
+                            Places
+                        </a>
+                    </li>
+                    <li class="InitialItemsList">
+                        <a href="http://www.talenter.com" target="_blank">
+                            Maps
+                        </a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <div class="searchContainer">
+                    <input class="searchBox" type="text" placeholder="Search..">
+                    <button type="submit" class="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </td>
+            <td>
+                <ul class="SignAccountList">
+                    <li>
+                        <a href="sign_in.html">
+                            Sign in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="create_account.html">
+                            Create Account
+                        </a>
+                    </li>
+
+                </ul>
+            </td>
+
+
+        </tr>
+
+    </table>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/38d72n9d14/lisbon/" data-label_1="LISBOA" data-label_2="WEATHER" data-theme="weather_one">LISBOA WEATHER</a>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+
+    <video class="video" width="640" height="480" autoplay muted controls>
+        <source src="Videos/Alpes.mp4#t=5" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="IconSuggestionBox">
+        <i class="fas fa-comments"></i>
+        <div class="SuggestionBox">
+            Suggestion Box <br />
+            <fieldset style="border:none">
+                <input type="text" class="textSuggestion" id="name" name="fname" required placeholder="Name" />
+                <input type="text" class="textSuggestion" id="email" name="fname" required placeholder="Email" />
+                <textarea class="textSuggestion" placeholder="Suggestion" tabindex="5" name="suggestion_text" required></textarea>
+
+            </fieldset>
+            <button name="submit" type="submit" class="submitSuggestion">Submit</button>
+        </div>
+
+    </div>
+
+
+
+    <table class="ContactTable">
+        <tr>
+            <th class="ContactTitle" colspan="2">
+                CONTACTS
+            </th>
+        </tr>
+        <tr>
+            <td class="ContactItems">
+                <a href="mailto: anappafonso@gmail.com?subject=Texto&body=Corpo">
+                    <span style=" font-size: 2.5em; color: #A6A39E">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                </a>
+            </td>
+            <td class="ContactItems">
+                <a href="tel: +351926054898">
+                    <span style="font-size: 2.5em; color: #A6A39E;">
+                        <i class="fas fa-phone-square-alt"></i>
+
+                    </span>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="ContactItems">
+                EMAIL
+            </td>
+            <td class="ContactItems">
+                MOBILE
+            </td>
+        </tr>
+        <tr>
+            <th class="ContactInfo" colspan="2">
+                Email: info@NaturePics.com
+
+            </th>
+
+        </tr>
+        <tr>
+            <th class="ContactInfo" colspan="2">
+                Mobile: +351 987 654 321
+            </th>
+
+        </tr>
+    </table>
+</body>
+</html>
